@@ -1,11 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bdd_test_suite", "bdd_test_suite\bdd_test_suite.vcproj", "{B83C8CEB-C014-4534-8703-FCB2E5FCF94F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bdd_test_value", "bdd_test_value\bdd_test_value.vcproj", "{B20BED14-019F-45D0-AAF9-5E9CD81E0F7F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "topcoder_zoo", "topcoder_zoo\topcoder_zoo.vcproj", "{18BCADE6-D12C-4426-B6DD-688B4AF7A128}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +19,6 @@ Global
 		{B20BED14-019F-45D0-AAF9-5E9CD81E0F7F}.Debug|Win32.Build.0 = Debug|Win32
 		{B20BED14-019F-45D0-AAF9-5E9CD81E0F7F}.Release|Win32.ActiveCfg = Release|Win32
 		{B20BED14-019F-45D0-AAF9-5E9CD81E0F7F}.Release|Win32.Build.0 = Release|Win32
-		{18BCADE6-D12C-4426-B6DD-688B4AF7A128}.Debug|Win32.ActiveCfg = Debug|Win32
-		{18BCADE6-D12C-4426-B6DD-688B4AF7A128}.Debug|Win32.Build.0 = Debug|Win32
-		{18BCADE6-D12C-4426-B6DD-688B4AF7A128}.Release|Win32.ActiveCfg = Release|Win32
-		{18BCADE6-D12C-4426-B6DD-688B4AF7A128}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

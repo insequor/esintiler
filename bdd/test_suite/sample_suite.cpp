@@ -40,13 +40,13 @@ TEST_SUITE(SampleSuite)
         logger->log(std::string("TearDown(") + iName + ")");
     }
 
-    TEST(fooTest1)
+    TEST("fooTest1")
     {
         ASSERT_THAT(!MappedValue("AssertFails"));
         CHECK_THAT(!MappedValue("CheckFails"));
         CHECK_THAT(!MappedValue("CheckFails"));
     }
-    TEST(fooTest2)
+    TEST("fooTest2")
     {
         CHECK_THAT(1);
     }

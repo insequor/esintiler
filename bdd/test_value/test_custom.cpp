@@ -46,14 +46,14 @@ DECLARE_TESTER_VALUE(FooTester);
 
 TEST_SUITE(FooSuite)
 {
-    TEST(TypeCaseShouldWork)
+    TEST("TypeCaseShouldWork")
     {
         Foo foo;
         CHECK_THAT(&foo == value(&foo));
         //CHECK_THAT(foo == value(foo));
     }
 
-    TEST(UpdateTestShouldWork)
+    TEST("UpdateTestShouldWork")
     {
         Foo foo;
         CHECK_THAT(value(foo).should.update());
@@ -64,6 +64,4 @@ TEST_SUITE(FooSuite)
         CHECK_THAT(!value(&foo).should.not.update());
         CHECK_THAT(!value(&foo).should.update().and.not.update());
     }
-
-    
 };
